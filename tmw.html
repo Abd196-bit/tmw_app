@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#6200ee">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tmw</title>
+    <style>
+        body {
+            background-color: #000000; /* Dark green background */
+            color: white; /* Default text color */
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        button {
+            background-color: #4CAF50;
+            border: none;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 50px; /* Change the font size here */
+            margin: 4px 2px;
+            cursor: pointer;
+            font-family: 'Times New Roman', Times, serif;
+            background: linear-gradient(to right, #767575, #ffffff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            transition: background-color 0.3s ease; /* Smooth transition */
+        }
+        button:hover {
+            background-color: #45a049; /* Change to a different color on hover */
+            -webkit-background-clip: border-box;
+            -webkit-text-fill-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <a href="https://tmw-ai.zapier.app"><button>GO TO OUR OFFICIAL AI APP</button></a>
+        <a href="https://sites.google.com/view/the-monday-worksheet/home"><button>GO TO OUR OFFICIAL APP</button></a>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
